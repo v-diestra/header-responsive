@@ -17,8 +17,9 @@ body {
 }
 
 .navbar {
-    height: 36px !important;
+    height: 33px !important;
     background-color: #001777 !important;
+    font-size: 13px;
 }
 
 .navbar-collapse {
@@ -28,7 +29,7 @@ body {
 
 @media (min-width: 992px) {
     .navbar-collapse {
-        height: 36px !important;
+        height: 33px !important;
     }
 }
 
@@ -94,9 +95,10 @@ body {
         transform: translate3d(0px, 0px, 0px);
     }
 
-    html, body {
-        height: 100%;
-        background: url(../../Img/Fondo.jpeg) no-repeat center center fixed;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-    }
+html, body {
+    height: 100%;
+    background: url(../../Img/Fondo.jpeg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "Time Roman", sans-serif !important;
+}
